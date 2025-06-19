@@ -1,0 +1,67 @@
+.sunicon{
+    font-size:200px;
+    color: rgb(231, 164, 40);
+}
+.container{
+    margin: 30px 25% 0 25%;
+    background-color: rgb(111, 111, 242);
+    color: white;
+    border-radius: 15px;
+}
+input{
+    padding: 10px;
+}
+.searchbar{
+    margin-left: 30px;
+}
+.inputbar{
+    margin: 10px 5px 10px 0;
+    width: 60%;
+    height: 15px;
+    border-radius: 20px;
+}
+.searchbutton{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.weathericon{
+    display: flex;
+    font-size:80px;
+    color: rgba(231, 222, 59, 0.907);
+    margin: 10px 0 10px 130px;
+}
+.cityname{
+    margin:30px 20% 20px 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cityname p{
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.weatherterms{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-around;
+}
+.humidity_measure{
+    display: flex;
+}
+.humidity_symbol{
+    display: flex;
+    justify-content: center;
+}
+.humidity{
+    line-height: 1.9rem;
+    font-size: 1.1em;
+}
+.windspeed{
+     line-height: 1.9rem;
+    font-size: 1.1em;
+}
+.windspeed_measure{
+    display: flex;
+}
